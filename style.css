@@ -14,7 +14,7 @@
 
 body::-webkit-scrollbar {
     display: none;
-    background: #7395ae;
+    background: #f5f5f5;
     min-height: 100vh;
     min-width: 100vw;
     overflow-x: hidden;
@@ -31,8 +31,7 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: #838286;
-    
+    background-color: #333333;
 }
 
 
