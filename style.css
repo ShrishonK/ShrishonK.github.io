@@ -9,7 +9,9 @@
     scroll-behavior: smooth;
 }
 
-
+body {
+    overflow-x: hidden;
+}
 
 body::-webkit-scrollbar {
     display: none;
