@@ -11,6 +11,8 @@
 
 body {
     overflow-x: hidden;
+    min-height: 100vh;
+
 }
 
 body::-webkit-scrollbar {
@@ -47,6 +49,7 @@ header {
     height: 100vh;
     scroll-behavior: none;
     font-size: 20pt;
+    height: auto;  
     
 }
 
@@ -172,4 +175,16 @@ header {
 .text-card {
     height: 100%;
     overflow-y: visible;
+  }
+
+  @media (max-height: 600px) {
+    .heading {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-height: 400px) {
+    .heading {
+      font-size: 1.5rem;
+    } 
   }
