@@ -7,8 +7,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
-    overflow-x: hidden;
-    
 }
 
 
@@ -38,14 +36,14 @@ header {
 
 
 .section {
-    min-height: 100vh;
+    min-height: relative;
     padding-top: 15px;
     position: relative;
     display: grid;
     justify-content: center;
     text-align: center;
     height: 100vh;
-    scroll-behavior: smooth;
+    scroll-behavior: none;
     font-size: 20pt;
     
 }
@@ -128,6 +126,7 @@ header {
     height: 100vh;
     scroll-behavior: smooth;
     background-color: rgba(116, 150, 175, 0.5);
+    overflow: hidden;
 }
 
 
