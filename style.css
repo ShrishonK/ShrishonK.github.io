@@ -155,10 +155,7 @@ header {
     justify-content:center
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .container a {
     text-decoration: none;
@@ -186,7 +183,10 @@ header {
     body {
         background-size: auto;
     }
-
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
     .heading {
       font-size: 2rem;
     }
@@ -195,6 +195,10 @@ header {
   @media (max-height: 400px) {
     body {
         background-size: auto;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
     }
     .heading {
       font-size: 1.5rem;

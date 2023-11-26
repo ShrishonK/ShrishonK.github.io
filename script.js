@@ -22,29 +22,3 @@ function updateActiveLink(element) {
     element.classList.add("active");
 }
 
-// Get all section IDs 
-const sections = document.querySelectorAll("section.section");
-
-// Get nav links
-const navLinks = document.querySelectorAll('nav a');
-
-window.addEventListener('scroll', () => {
-
-  let current = '';
-
-  sections.forEach(section => {
-    const sectionTop = section.offsetTop;
-    
-    if(pageYOffset >= sectionTop - 60){
-      current = section.getAttribute('id');   
-    }
-  })
-
-  navLinks.forEach(link => {
-     link.classList.remove('active');
-     if(link.href.includes(current)){
-        link.classList.add('active');
-     }
-  })
-
-});
