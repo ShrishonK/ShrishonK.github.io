@@ -179,7 +179,7 @@ header {
 
   @media (max-height: 600px) {
     body {
-        width: auto;
+        background-size: auto;
     }
     .heading {
       font-size: 2rem;
@@ -188,7 +188,7 @@ header {
   
   @media (max-height: 400px) {
     body {
-        width: auto;
+        background-size: auto;
     }
     .heading {
       font-size: 1.5rem;
