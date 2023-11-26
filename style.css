@@ -155,6 +155,11 @@ header {
     justify-content:center
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .container a {
     text-decoration: none;
     background: rgb(33, 32, 32);
