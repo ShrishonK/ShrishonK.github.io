@@ -90,9 +90,11 @@ header {
     display: grid;
     justify-content: center;
     text-align: center;
-    height: 65vh;
+    height: 100vh;
     scroll-behavior: smooth;
-    font-size: 20pt;}
+    font-size: 20pt;
+    place-items: center;
+}
 
 
 
