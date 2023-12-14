@@ -185,7 +185,7 @@ header {
         background-size: auto;
     }
     .container {
-        display: flex;
+        display: grid;
         flex-direction: column;
     }
     .heading {
@@ -198,7 +198,7 @@ header {
         background-size: auto;
     }
     .container {
-        display: flex;
+        display: grid;
         flex-direction: column;
     }
     .heading {
