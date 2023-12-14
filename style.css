@@ -188,7 +188,7 @@ header {
         display: grid;
         flex-direction: column;
     }
-    .selection {
+    .section {
         display: grid;
         flex-direction: column;
     }
@@ -205,7 +205,7 @@ header {
         display: grid;
         flex-direction: column;
     }
-    .selection {
+    .section {
         display: grid;
         flex-direction: column;
     }
