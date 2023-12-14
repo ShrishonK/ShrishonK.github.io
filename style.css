@@ -188,6 +188,10 @@ header {
         display: grid;
         flex-direction: column;
     }
+    .selection {
+        display: grid;
+        flex-direction: column;
+    }
     .heading {
       font-size: 2rem;
     }
@@ -198,6 +202,10 @@ header {
         background-size: auto;
     }
     .container {
+        display: grid;
+        flex-direction: column;
+    }
+    .selection {
         display: grid;
         flex-direction: column;
     }
