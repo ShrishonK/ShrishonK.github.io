@@ -67,7 +67,7 @@ header {
     
 }
 
-.section.three {
+.section.odd {
     color: #fff;
     background-color: #162938;
     margin: 100%, 1000px;
@@ -75,15 +75,10 @@ header {
     flood-opacity: 50%;
 }
 
-.section.five {
+
+.section.last {
     color: #fff;
     background-color: #162938;
-    margin: 100%, 1000px;
-    overflow-x: hidden;
-    flood-opacity: 50%;
-}
-
-.section.six {
     min-height: 50vh;
     padding-top: 5px;
     position: relative;
