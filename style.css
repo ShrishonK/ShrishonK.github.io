@@ -50,6 +50,7 @@ header {
     scroll-behavior: none;
     font-size: 20pt;
     height: auto;  
+    overflow-x: hidden;
     padding: 0px 2vw 0px 2vw; 
 
     
@@ -60,21 +61,13 @@ header {
     margin-top: 100px;
 }
 
-.section.one {
-    color: #fff;
-    background-color: #162938;
-    margin: 100%, 1000px;
-    overflow-x: hidden;
-    padding-right: auto;
-    
-}
 
 .section.odd {
     color: #fff;
     background-color: #162938;
     margin: 100%, 1000px;
     overflow-x: hidden;
-    flood-opacity: 50%;
+    
 }
 
 
