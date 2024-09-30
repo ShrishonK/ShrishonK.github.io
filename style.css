@@ -50,6 +50,8 @@ header {
     scroll-behavior: none;
     font-size: 20pt;
     height: auto;  
+    padding: 0px 2vw 0px 2vw; 
+
     
 }
 
