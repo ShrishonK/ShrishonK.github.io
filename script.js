@@ -8,9 +8,7 @@ window.addEventListener("scroll", () => {
 document.getElementById("navbarToggler").addEventListener("click", function () {
   const navbarCollapse = document.getElementById("navbarCollapse");
 
-  navbarCollapse.style.display = "block";
-  navbarCollapse.offsetHeight;
-  navbarCollapse.classList.toggle("active");
+  navbarCollapse.classList.toggle("show");
 });
 
 function updateActiveLink(element) {
@@ -21,6 +19,7 @@ function updateActiveLink(element) {
     navLinks[i].classList.remove("active");
   }
   element.classList.add("active");
+  navbarCollapse.classList.toggle("show");
 }
 
 const sections = document.querySelectorAll(".title, .section");

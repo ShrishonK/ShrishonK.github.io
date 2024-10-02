@@ -45,7 +45,7 @@ header {
     height: 100vh;
     scroll-behavior: none;
     font-size: 20pt;
-    height: auto;  
+    height: auto;
     margin: 100%, 1000px;
     overflow-x: hidden;
     padding: 0px 2vw 0px 2vw; 
@@ -90,15 +90,15 @@ header {
     margin: 0 10px;
     font-weight: 600;
 }
+
 .navigation.active {
-    display: block !important; /* Use !important to override any Safari quirks */
+    display: block !important;
 }
 
 .navigation a:hover, 
 .navigation a.active {
     background: rgb(33, 32, 32);
     color: white;
-    
 }
 
 .Shri {
@@ -127,8 +127,8 @@ header {
 }
 
 .link {
-    display:flex; 
-    justify-content:center;
+    display: flex; 
+    justify-content: center;
 }
 
 .container a {
@@ -161,13 +161,14 @@ header {
     cursor: pointer;
 }
 
+
 @media (max-width: 768px) {
     .navbar-toggler {
         display: block;
         margin-left: auto;
     }
 
-    .navigation {
+    #navbarCollapse {
         display: none;
         position: absolute;
         top: 60px;
@@ -175,6 +176,15 @@ header {
         background-color: #333;
         width: 100%;
         text-align: center;
+        transition: max-height 0.3s ease;
+        overflow: hidden;
+        max-height: 0;
+    }
+
+    #navbarCollapse.show {
+        display: block;
+        max-height: 500px;
+        opacity: 50%;
     }
 
     .navigation a {
@@ -186,7 +196,7 @@ header {
     }
 
     .navigation.active {
-        display: block; 
+        display: block;
     }
 
     #text {
@@ -203,6 +213,19 @@ header {
 
     .logo {
         font-size: 6vw;
+    }
+}
+
+@media (min-width: 769px) {
+    #navbarCollapse {
+        display: block;
+        max-height: none;
+        position: relative;
+        background-color: transparent;
+    }
+
+    .navbar-toggler {
+        display: none;
     }
 }
 
