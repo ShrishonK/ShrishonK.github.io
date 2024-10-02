@@ -208,13 +208,13 @@ header {
 
     .section {
         transform: scale(0.9);
-        transform-origin: top left;
+        transform-origin: center;
         padding: 10px;
     }
 
     .container {
         transform: scale(0.9);
-        transform-origin: top left;
+        transform-origin: center;
         padding: 10px;
     }
 }
@@ -222,12 +222,12 @@ header {
 @media (max-width: 480px) {
     .section {
         transform: scale(0.8);
-        transform-origin: top left;
+        transform-origin: center;
     }
 
     .container {
         transform: scale(0.8);
-        transform-origin: top left;
+        transform-origin: center;
     }
 
     .text-card, .text2-card, .text3-card {
