@@ -7,6 +7,9 @@ window.addEventListener("scroll", () => {
 
 document.getElementById("navbarToggler").addEventListener("click", function () {
   const navbarCollapse = document.getElementById("navbarCollapse");
+
+  navbarCollapse.style.display = "block";
+  navbarCollapse.offsetHeight;
   navbarCollapse.classList.toggle("active");
 });
 

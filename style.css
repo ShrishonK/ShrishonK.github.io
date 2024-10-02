@@ -90,11 +90,15 @@ header {
     margin: 0 10px;
     font-weight: 600;
 }
+.navigation.active {
+    display: block !important; /* Use !important to override any Safari quirks */
+}
 
 .navigation a:hover, 
 .navigation a.active {
     background: rgb(33, 32, 32);
     color: white;
+    
 }
 
 .Shri {
