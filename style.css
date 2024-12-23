@@ -184,7 +184,7 @@ header {
     #navbarCollapse.show {
         display: block;
         max-height: 500px;
-        opacity: 50%;
+        opacity: 80%;
     }
 
     .navigation a {
